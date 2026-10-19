@@ -6,7 +6,8 @@ Gruppe (laut Vortragsgruppen-Liste, Aufgabe 4, Woche 6): Leorat Krasniqi, Teoman
 |---|---|
 | `Vortrag4_Berkeley_Analyse.ipynb` | Kommentierter Python-Code (Jupyter), ausgeführt mit allen Ausgaben |
 | `Vortrag4_Ausarbeitung.docx` / `.pdf` | Schriftliche Ausarbeitung (12 Seiten ohne Titelblatt und Quellen, verlangt: ≥ 3 × 2 = 6) |
-| `Vortrag4_Praesentation.pptx` | 12 Folien für 15 Minuten (3 × 5) plus 4 Reservefolien für 20 Minuten, Sprechernotizen in jeder Folie |
+| `Vortrag4_Praesentation.pptx` | 16 Folien für 15 Minuten (3 × 5, inkl. 3 Kapiteltrenner) plus 4 Reservefolien für 20 Minuten; editierbare Diagramme, Sprechernotizen in jeder Folie |
+| `Vortrag4_Sprechtext.md` | Ausformulierter Sprechtext Folie für Folie (auch in den Notizen der Präsentation) |
 | `Vortrag4_Fragen_und_Antworten.md` | Sprecherplan und mögliche Fragen der Lehrperson mit Antworten |
 | `abbildungen/` | Die 5 Diagramme als PNG (werden vom Notebook erzeugt) |
 
