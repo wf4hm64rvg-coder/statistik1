@@ -9,23 +9,26 @@ Die Reihenfolge der Personen legt ihr selbst fest. Jeder Teil dauert etwa 5 Minu
 
 | Teil | Folien | Inhalt | Zeit |
 |---|---|---|---|
-| Sprecher/in 1 | 1–4 | Begrüssung, Ausgangslage, (a) Funktionen in Python | 5 Min. |
-| Sprecher/in 2 | 5–7 | Vorüberlegungen und Libraries, (b) scheinbare Ungerechtigkeit, Quoten je Fachbereich | 5 Min. |
-| Sprecher/in 3 | 8–11 | Verteilung der Bewerbungen, totale Wahrscheinlichkeit, stochastische Unabhängigkeit, Fazit | 5 Min. |
-| alle | 12 | Quellen, Fragen | – |
+| Sprecher/in 1 | 1–5 | Titel, Ausgangslage, Kapitel (a), Funktionen in Python | 5 Min. |
+| Sprecher/in 2 | 6–10 | Kapitel (b), Vorüberlegungen, scheinbare Ungerechtigkeit, Kapitel (c), Quoten je Fachbereich | 5 Min. |
+| Sprecher/in 3 | 11–15 | Verteilung der Bewerbungen, Streudiagramm, totale Wahrscheinlichkeit, stochastische Unabhängigkeit, Fazit | 5 Min. |
+| alle | 16 | Quellen, Fragen | – |
+
+Die Kapiteltrenner (Folien 3, 6, 9) dauern nur ein paar Sekunden. Sie markieren den Übergang
+zum nächsten Teil.
 
 **Falls 20 Minuten verlangt sind** (das Aufgabenblatt nennt 20, die Regeln 3 × 5 = 15 Minuten):
-Die Reservefolien 13–16 an diesen Stellen einschieben, jede dauert etwa 1 bis 1.5 Minuten.
+Die Reservefolien 18–21 an diesen Stellen einschieben, jede dauert etwa 1 bis 1.5 Minuten.
 
 | Reservefolie | Einschieben nach | Wer |
 |---|---|---|
-| 16 Ablauf des Programms | Folie 5 | Sprecher/in 2 |
-| 13 Gesamtquote als gewichteter Mittelwert | Folie 9 | Sprecher/in 3 |
-| 14 So funktioniert der Chi-Quadrat-Test | Folie 10 | Sprecher/in 3 |
-| 15 Der Fachbereich als Drittvariable | Folie 10 | Sprecher/in 3 |
+| 21 Ablauf des Programms | Folie 7 | Sprecher/in 2 |
+| 18 Gesamtquote als gewichteter Mittelwert | Folie 13 | Sprecher/in 3 |
+| 19 So funktioniert der Chi-Quadrat-Test | Folie 14 | Sprecher/in 3 |
+| 20 Der Fachbereich als Drittvariable | Folie 14 | Sprecher/in 3 |
 
-Bei 15 Minuten bleiben die Reservefolien hinter „Quellen · Fragen?“. Sie eignen sich dann
-gut, um Rückfragen zu beantworten.
+Bei 15 Minuten bleiben die Reservefolien hinter „Quellen · Fragen?“ (ab der Trennfolie 17).
+Sie eignen sich dann gut, um Rückfragen zu beantworten.
 
 **Tipp:** Jede Person sollte den ganzen Vortrag erklären können. Die Lehrperson kann jede
 Frage an jede Person richten.
@@ -164,7 +167,7 @@ Abweichung ist bei Unabhängigkeit praktisch unmöglich, also wird H₀ verworfe
 Man berechnet für jede Zelle die bei Unabhängigkeit erwartete Häufigkeit E = n · P(Z) · P(W).
 Bei zugelassenen Frauen wären das 711.5, beobachtet sind 557. Danach summiert man
 (B − E)² / E über alle Zellen. Bei der Vierfeldertafel gibt es 1 Freiheitsgrad, der kritische
-Wert für α = 5 % ist 3.84. Unser Wert: χ² = 92.2. Details stehen auf Reservefolie 14.
+Wert für α = 5 % ist 3.84. Unser Wert: χ² = 92.2. Details stehen auf Reservefolie 19.
 
 **Warum `correction=False`?**
 Ohne Yates-Korrektur entspricht das Ergebnis genau der Formel aus der Vorlesung, man kann es
