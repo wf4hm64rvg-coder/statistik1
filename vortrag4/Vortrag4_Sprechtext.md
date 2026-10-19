@@ -1,17 +1,17 @@
 # Vortrag 4: Sprechtext
 
 Ausformulierter Sprechtext zu `Vortrag4_Praesentation.pptx`, Folie für Folie. Derselbe Text steht in den
-Notizen der Präsentation (Referentenansicht). Platzhalter in eckigen Klammern durch eure Namen ersetzen.
+Notizen der Präsentation (Referentenansicht). Reihenfolge der Personen wie in der Gruppenliste (kann getauscht werden).
 Die Zeitangaben rechnen mit ruhigem Vortragstempo inklusive Pausen und Zeigen auf die Folien
 (etwa 110 Wörter pro Minute). Reservefolien sind nicht eingerechnet.
 
-- **Sprecher/in 1:** Folien 1–5, rund 504 Wörter (etwa 4.6 Minuten)
-- **Sprecher/in 2:** Folien 6–10, rund 471 Wörter (etwa 4.3 Minuten)
-- **Sprecher/in 3:** Folien 11–15, rund 508 Wörter (etwa 4.6 Minuten)
+- **Leorat Krasniqi (Sprecher/in 1):** Folien 1–5, rund 502 Wörter (etwa 4.6 Minuten)
+- **Teoman-Doganay Lam (Sprecher/in 2):** Folien 6–10, rund 469 Wörter (etwa 4.3 Minuten)
+- **Filip Lazic (Sprecher/in 3):** Folien 11–15, rund 508 Wörter (etwa 4.6 Minuten)
 
 ---
 
-## Sprecher/in 1
+## Leorat Krasniqi (Sprecher/in 1)
 
 ### Folie 1: Titel
 
@@ -31,9 +31,9 @@ McKinney nennt eine einfache Faustregel: Code, den man mehr als einmal braucht, 
 
 ### Folie 5: Funktionen als Objekte, Lambda, yield
 
-Vier weitere Konzepte aus Abschnitt 3.2. Erstens: Funktionen sind Objekte. Wir speichern unsere Bereinigungsschritte in einer Liste und wenden sie nacheinander auf jeden Wert aus Tabelle 4 an. So wird aus dem Text «82.4%» die Zahl 0.824. Der Vorteil: Kommt ein weiterer Bereinigungsschritt dazu, fügen wir ihn nur in die Liste ein, die Funktion selbst bleibt gleich. Zweitens: Lambda-Funktionen sind anonyme Einzeiler, ideal, wenn man eine Funktion als Argument übergibt. Mit partial legen wir ein Argument fest, das nennt man Currying: pruefe_streng ist derselbe Test, nur mit einem Signifikanzniveau von 1 Prozent. Drittens: Ein Generator liefert mit yield die Ergebnisse erst dann, wenn sie angefordert werden, bei uns Fachbereich für Fachbereich. Viertens: Bei der Ausnahmebehandlung fangen wir nur den erwarteten Fehler ab, den ValueError bei einem Tippfehler in der Tabelle. Andere Fehler sollen sichtbar bleiben. Damit übergebe ich an [Name Sprecher/in 2].
+Vier weitere Konzepte aus Abschnitt 3.2. Erstens: Funktionen sind Objekte. Wir speichern unsere Bereinigungsschritte in einer Liste und wenden sie nacheinander auf jeden Wert aus Tabelle 4 an. So wird aus dem Text «82.4%» die Zahl 0.824. Der Vorteil: Kommt ein weiterer Bereinigungsschritt dazu, fügen wir ihn nur in die Liste ein, die Funktion selbst bleibt gleich. Zweitens: Lambda-Funktionen sind anonyme Einzeiler, ideal, wenn man eine Funktion als Argument übergibt. Mit partial legen wir ein Argument fest, das nennt man Currying: pruefe_streng ist derselbe Test, nur mit einem Signifikanzniveau von 1 Prozent. Drittens: Ein Generator liefert mit yield die Ergebnisse erst dann, wenn sie angefordert werden, bei uns Fachbereich für Fachbereich. Viertens: Bei der Ausnahmebehandlung fangen wir nur den erwarteten Fehler ab, den ValueError bei einem Tippfehler in der Tabelle. Andere Fehler sollen sichtbar bleiben. Damit übergebe ich an Teoman.
 
-## Sprecher/in 2
+## Teoman-Doganay Lam (Sprecher/in 2)
 
 ### Folie 6: Kapitel (b)
 
@@ -53,9 +53,9 @@ Damit kommen wir zu Teil (c). Die Gesamtquote fasst alle sechs Fachbereiche zusa
 
 ### Folie 10: Je Fachbereich: kein Nachteil für Frauen
 
-Und hier kippt das Bild. In vier von sechs Fachbereichen haben Frauen die höhere Zulassungsquote, nämlich in A, B, D und F. In Fachbereich A sogar um 20.3 Prozentpunkte. Nur in C und E liegen die Männer leicht vorne, mit 2.8 und 3.8 Prozentpunkten. Diese Unterschiede sind klein, der Unterschied in A dagegen ist gross, und zwar zugunsten der Frauen. Übrigens zeichnet dieses Diagramm dieselbe Funktion wie das Diagramm zur Verteilung der Bewerbungen auf der nächsten Folie, nur mit anderen Spalten. In den Fachbereichen, die über die Zulassung entscheiden, sehen wir also keinen Nachteil für Frauen. Wie passt das zur Gesamtquote? Das erklärt [Name Sprecher/in 3].
+Und hier kippt das Bild. In vier von sechs Fachbereichen haben Frauen die höhere Zulassungsquote, nämlich in A, B, D und F. In Fachbereich A sogar um 20.3 Prozentpunkte. Nur in C und E liegen die Männer leicht vorne, mit 2.8 und 3.8 Prozentpunkten. Diese Unterschiede sind klein, der Unterschied in A dagegen ist gross, und zwar zugunsten der Frauen. Übrigens zeichnet dieses Diagramm dieselbe Funktion wie das Diagramm zur Verteilung der Bewerbungen auf der nächsten Folie, nur mit anderen Spalten. In den Fachbereichen, die über die Zulassung entscheiden, sehen wir also keinen Nachteil für Frauen. Wie passt das zur Gesamtquote? Das erklärt Filip.
 
-## Sprecher/in 3
+## Filip Lazic (Sprecher/in 3)
 
 ### Folie 11: Frauen wählten selektivere Fachbereiche
 
@@ -87,18 +87,18 @@ Vielen Dank für Ihre Aufmerksamkeit. Rechts sehen Sie unsere Quellen. Wir freue
 
 ## Reservefolien (nur bei 20 Minuten oder für Rückfragen)
 
-### Folie 18: Reserve: Gesamtquote als gewichteter Mittelwert (Sprecher/in 3, Einsatz nach Folie 13)
+### Folie 18: Reserve: Gesamtquote als gewichteter Mittelwert (Filip Lazic (Sprecher/in 3), Einsatz nach Folie 13)
 
 Diese Tabelle rechnet die Gesamtquote vor. In jeder Zeile multiplizieren wir den Anteil der Bewerbungen mit der Zulassungsquote. Das ergibt den Beitrag des Fachbereichs. Bei den Frauen liegen die grossen Gewichte bei C bis F, zusammen 92.8 Prozent, und dort sind die Quoten tief. Darum ergibt die Summe nur 30.4 Prozent. Bei den Männern liegen 51.5 Prozent der Gewichte bei A und B mit hohen Quoten, die Summe ergibt 44.6 Prozent. Dass es nicht genau 44.5 sind, ist nur ein Rundungseffekt von Tabelle 4.
 
-### Folie 19: Reserve: So funktioniert der Chi-Quadrat-Test (Sprecher/in 3, Einsatz nach Folie 14)
+### Folie 19: Reserve: So funktioniert der Chi-Quadrat-Test (Filip Lazic (Sprecher/in 3), Einsatz nach Folie 14)
 
 So funktioniert der Chi-Quadrat-Test. Die Nullhypothese lautet: Zulassung und Geschlecht sind unabhängig. Dann erwarten wir in jeder Zelle n mal P von Z mal P von W. Für zugelassene Frauen wären das 711.5, beobachtet sind aber nur 557. Die Teststatistik summiert über alle vier Zellen die quadrierte Abweichung geteilt durch den erwarteten Wert. Das ergibt 92.2. Bei einem Freiheitsgrad liegt der kritische Wert für 5 Prozent bei 3.84. Wir verwerfen die Nullhypothese also klar. Im Code genügt ein einziger Aufruf: chi2_contingency.
 
-### Folie 20: Reserve: Der Fachbereich als Drittvariable (Sprecher/in 3, Einsatz nach Folie 14 oder bei der Frage nach Kausalität)
+### Folie 20: Reserve: Der Fachbereich als Drittvariable (Filip Lazic (Sprecher/in 3), Einsatz nach Folie 14 oder bei der Frage nach Kausalität)
 
 Hier sieht man die Struktur des Problems. Das Geschlecht hängt stark mit der Wahl des Fachbereichs zusammen, Chi-Quadrat 1 068.4. Und der Fachbereich hängt stark mit der Zulassung zusammen, Chi-Quadrat 778.9. Der direkte Effekt des Geschlechts auf die Zulassung ist innerhalb der Fachbereiche kaum vorhanden. Der Fachbereich ist also der Confounder, der den Zusammenhang insgesamt erzeugt. Korrelation ist nicht Kausalität.
 
-### Folie 21: Reserve: Ablauf des Programms (Sprecher/in 2, Einsatz nach Folie 7, falls nach dem Aufbau des Codes gefragt wird)
+### Folie 21: Reserve: Ablauf des Programms (Teoman-Doganay Lam (Sprecher/in 2), Einsatz nach Folie 7, falls nach dem Aufbau des Codes gefragt wird)
 
 Hier sieht man den Ablauf unseres Programms in fünf Schritten. Erstens erfassen wir Tabelle 4 als Text und bereinigen sie mit einer Liste von Funktionen. Zweitens prüfen wir sie mit dem Satz der totalen Wahrscheinlichkeit. Drittens laden wir die Originalanzahlen in ein langes DataFrame und prüfen sie gegen Tabelle 4. Viertens analysieren wir mit denselben Funktionen gesamt und je Fachbereich. Fünftens zeichnen wir die Diagramme mit einer festen Farbe pro Geschlecht. Dahinter stehen drei Prinzipien: Jeder wiederholte Schritt ist eine Funktion, wir verwenden kein global, und Fehler werden durch try/except und zwei Gegenproben sofort sichtbar.

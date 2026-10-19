@@ -5,13 +5,13 @@ Vorbereitung auf den Vortrag (Aufgabe 4, UC Berkeley 1973). Alle Zahlen stammen 
 
 ## 1. Sprecherplan
 
-Die Reihenfolge der Personen legt ihr selbst fest. Jeder Teil dauert etwa 5 Minuten.
+Reihenfolge wie in der Gruppenliste (kann getauscht werden). Jeder Teil dauert etwa 5 Minuten.
 
 | Teil | Folien | Inhalt | Zeit |
 |---|---|---|---|
-| Sprecher/in 1 | 1–5 | Titel, Ausgangslage, Kapitel (a), Funktionen in Python | 5 Min. |
-| Sprecher/in 2 | 6–10 | Kapitel (b), Vorüberlegungen, scheinbare Ungerechtigkeit, Kapitel (c), Quoten je Fachbereich | 5 Min. |
-| Sprecher/in 3 | 11–15 | Verteilung der Bewerbungen, Streudiagramm, totale Wahrscheinlichkeit, stochastische Unabhängigkeit, Fazit | 5 Min. |
+| Leorat Krasniqi | 1–5 | Titel, Ausgangslage, Kapitel (a), Funktionen in Python | 5 Min. |
+| Teoman-Doganay Lam | 6–10 | Kapitel (b), Vorüberlegungen, scheinbare Ungerechtigkeit, Kapitel (c), Quoten je Fachbereich | 5 Min. |
+| Filip Lazic | 11–15 | Verteilung der Bewerbungen, Streudiagramm, totale Wahrscheinlichkeit, stochastische Unabhängigkeit, Fazit | 5 Min. |
 | alle | 16 | Quellen, Fragen | – |
 
 Die Kapiteltrenner (Folien 3, 6, 9) dauern nur ein paar Sekunden. Sie markieren den Übergang
@@ -22,10 +22,10 @@ Die Reservefolien 18–21 an diesen Stellen einschieben, jede dauert etwa 1 bis 
 
 | Reservefolie | Einschieben nach | Wer |
 |---|---|---|
-| 21 Ablauf des Programms | Folie 7 | Sprecher/in 2 |
-| 18 Gesamtquote als gewichteter Mittelwert | Folie 13 | Sprecher/in 3 |
-| 19 So funktioniert der Chi-Quadrat-Test | Folie 14 | Sprecher/in 3 |
-| 20 Der Fachbereich als Drittvariable | Folie 14 | Sprecher/in 3 |
+| 21 Ablauf des Programms | Folie 7 | Teoman-Doganay Lam |
+| 18 Gesamtquote als gewichteter Mittelwert | Folie 13 | Filip Lazic |
+| 19 So funktioniert der Chi-Quadrat-Test | Folie 14 | Filip Lazic |
+| 20 Der Fachbereich als Drittvariable | Folie 14 | Filip Lazic |
 
 Bei 15 Minuten bleiben die Reservefolien hinter „Quellen · Fragen?“ (ab der Trennfolie 17).
 Sie eignen sich dann gut, um Rückfragen zu beantworten.
