@@ -17,18 +17,18 @@ Reihenfolge wie in der Gruppenliste (kann getauscht werden). Jeder Teil dauert e
 Die Kapiteltrenner (Folien 3, 6, 9) dauern nur ein paar Sekunden. Sie markieren den Übergang
 zum nächsten Teil.
 
-**Falls 20 Minuten verlangt sind** (das Aufgabenblatt nennt 20, die Regeln 3 × 5 = 15 Minuten):
-Die Reservefolien 18–21 an diesen Stellen einschieben, jede dauert etwa 1 bis 1.5 Minuten.
+Der Vortrag dauert 15 Minuten (3 × 5) und endet mit Folie 16. Mit dem Sprechtext kommt ihr auf
+knapp 14 Minuten, also bleibt etwas Puffer.
 
-| Reservefolie | Einschieben nach | Wer |
+**Reservefolien 17–21 nur bei Rückfragen:** Sie werden nicht vorgetragen. Fragt die Lehrperson
+nach, springt ihr direkt zur passenden Folie.
+
+| Reservefolie | Passt zur Frage nach … | Wer |
 |---|---|---|
-| 21 Ablauf des Programms | Folie 7 | Teoman-Doganay Lam |
-| 18 Gesamtquote als gewichteter Mittelwert | Folie 13 | Filip Lazic |
-| 19 So funktioniert der Chi-Quadrat-Test | Folie 14 | Filip Lazic |
-| 20 Der Fachbereich als Drittvariable | Folie 14 | Filip Lazic |
-
-Bei 15 Minuten bleiben die Reservefolien hinter „Quellen · Fragen?“ (ab der Trennfolie 17).
-Sie eignen sich dann gut, um Rückfragen zu beantworten.
+| 18 Gesamtquote als gewichteter Mittelwert | Folie 13: Wie kommt die Gesamtquote zustande? | Filip Lazic |
+| 19 So funktioniert der Chi-Quadrat-Test | Folie 14: Wie funktioniert der Test? | Filip Lazic |
+| 20 Der Fachbereich als Drittvariable | Folie 14: Ist das Kausalität / Diskriminierung? | Filip Lazic |
+| 21 Ablauf des Programms | Folie 7: Wie ist euer Code aufgebaut? | Teoman-Doganay Lam |
 
 **Tipp:** Jede Person sollte den ganzen Vortrag erklären können. Die Lehrperson kann jede
 Frage an jede Person richten.

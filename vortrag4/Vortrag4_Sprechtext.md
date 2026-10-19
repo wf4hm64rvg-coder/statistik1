@@ -85,20 +85,20 @@ Vielen Dank für Ihre Aufmerksamkeit. Rechts sehen Sie unsere Quellen. Wir freue
 
 ---
 
-## Reservefolien (nur bei 20 Minuten oder für Rückfragen)
+## Reservefolien (nur bei Rückfragen)
 
-### Folie 18: Reserve: Gesamtquote als gewichteter Mittelwert (Filip Lazic (Sprecher/in 3), Einsatz nach Folie 13)
+### Folie 18: Reserve: Gesamtquote als gewichteter Mittelwert (Filip Lazic (Sprecher/in 3), bei Rückfrage zu Folie 13)
 
 Diese Tabelle rechnet die Gesamtquote vor. In jeder Zeile multiplizieren wir den Anteil der Bewerbungen mit der Zulassungsquote. Das ergibt den Beitrag des Fachbereichs. Bei den Frauen liegen die grossen Gewichte bei C bis F, zusammen 92.8 Prozent, und dort sind die Quoten tief. Darum ergibt die Summe nur 30.4 Prozent. Bei den Männern liegen 51.5 Prozent der Gewichte bei A und B mit hohen Quoten, die Summe ergibt 44.6 Prozent. Dass es nicht genau 44.5 sind, ist nur ein Rundungseffekt von Tabelle 4.
 
-### Folie 19: Reserve: So funktioniert der Chi-Quadrat-Test (Filip Lazic (Sprecher/in 3), Einsatz nach Folie 14)
+### Folie 19: Reserve: So funktioniert der Chi-Quadrat-Test (Filip Lazic (Sprecher/in 3), bei Rückfrage zu Folie 14)
 
 So funktioniert der Chi-Quadrat-Test. Die Nullhypothese lautet: Zulassung und Geschlecht sind unabhängig. Dann erwarten wir in jeder Zelle n mal P von Z mal P von W. Für zugelassene Frauen wären das 711.5, beobachtet sind aber nur 557. Die Teststatistik summiert über alle vier Zellen die quadrierte Abweichung geteilt durch den erwarteten Wert. Das ergibt 92.2. Bei einem Freiheitsgrad liegt der kritische Wert für 5 Prozent bei 3.84. Wir verwerfen die Nullhypothese also klar. Im Code genügt ein einziger Aufruf: chi2_contingency.
 
-### Folie 20: Reserve: Der Fachbereich als Drittvariable (Filip Lazic (Sprecher/in 3), Einsatz nach Folie 14 oder bei der Frage nach Kausalität)
+### Folie 20: Reserve: Der Fachbereich als Drittvariable (Filip Lazic (Sprecher/in 3), bei Rückfrage zu Folie 14 oder bei der Frage nach Kausalität)
 
 Hier sieht man die Struktur des Problems. Das Geschlecht hängt stark mit der Wahl des Fachbereichs zusammen, Chi-Quadrat 1 068.4. Und der Fachbereich hängt stark mit der Zulassung zusammen, Chi-Quadrat 778.9. Der direkte Effekt des Geschlechts auf die Zulassung ist innerhalb der Fachbereiche kaum vorhanden. Der Fachbereich ist also der Confounder, der den Zusammenhang insgesamt erzeugt. Korrelation ist nicht Kausalität.
 
-### Folie 21: Reserve: Ablauf des Programms (Teoman-Doganay Lam (Sprecher/in 2), Einsatz nach Folie 7, falls nach dem Aufbau des Codes gefragt wird)
+### Folie 21: Reserve: Ablauf des Programms (Teoman-Doganay Lam (Sprecher/in 2), bei Rückfrage zu Folie 7, falls nach dem Aufbau des Codes gefragt wird)
 
 Hier sieht man den Ablauf unseres Programms in fünf Schritten. Erstens erfassen wir Tabelle 4 als Text und bereinigen sie mit einer Liste von Funktionen. Zweitens prüfen wir sie mit dem Satz der totalen Wahrscheinlichkeit. Drittens laden wir die Originalanzahlen in ein langes DataFrame und prüfen sie gegen Tabelle 4. Viertens analysieren wir mit denselben Funktionen gesamt und je Fachbereich. Fünftens zeichnen wir die Diagramme mit einer festen Farbe pro Geschlecht. Dahinter stehen drei Prinzipien: Jeder wiederholte Schritt ist eine Funktion, wir verwenden kein global, und Fehler werden durch try/except und zwei Gegenproben sofort sichtbar.
