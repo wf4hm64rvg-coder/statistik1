@@ -25,21 +25,21 @@ Kurzfassung des Sprechtexts. Fett = Kernzahl oder Schlüsselwort.
 
 ### 4 · Funktionen: Grundlagen
 
-- Faustregel McKinney: **mehr als einmal gebraucht → Funktion**
-- `def` deklariert, `return` gibt zurück · ohne return → **None**
-- Positions- vs. Keyword-Argumente · Keyword nach Position, Reihenfolge egal
-- Rechts: `vierfeldertafel(daten, fachbereich=None)` → None = alle, "A" = nur FB A
-- Lokaler Namensraum: entsteht beim Aufruf, verschwindet danach · **global vermeiden**
-- Mehrere Rückgabewerte = eigentlich **ein Tupel** → `quote, anteil = kennzahlen(89, 19, 1835)`
+- Funktion = **Maschine**: Zutaten rein, Ergebnis raus · einmal bauen, oft benutzen
+- McKinney: **mehr als einmal gebraucht → Funktion**
+- `def` = Maschine bauen · `return` = Ergebnis raus · ohne return → **None**
+- Zutaten = **Argumente** · Positionsargument: muss · Keyword-Argument: hat **Voreinstellung**
+- `vierfeldertafel`: fachbereich=None → **alle** · fachbereich="A" → **nur A**
+- **Geschlossene Küche:** `bewerbungen` gibt es nur im Aufruf = lokaler Namensraum · **global vermeiden**
+- `kennzahlen`: zwei Werte = **ein Paket (Tupel)** → auspacken in quote, anteil → **82.4 %** und **5.9 %**
 
 ### 5 · Funktionen als Objekte, Lambda, yield
 
-- **Funktionen sind Objekte:** Bereinigungsschritte in einer Liste → «82.4%» wird 0.824
-- Vorteil: neuer Schritt = nur in die Liste einfügen
-- **Lambda:** anonymer Einzeiler, ideal als Argument
-- **partial / Currying:** `pruefe_streng` = gleicher Test mit **α = 1 %**
-- **Generator / yield:** Ergebnisse erst auf Anfrage, Fachbereich für Fachbereich
-- **try/except:** nur **ValueError** (Tippfehler) abfangen, andere Fehler sichtbar lassen
+- **Funktionen sind Objekte** = **Fliessband**: Leerzeichen weg → % weg → Zahl · «82.4%» → **0.824**
+- **Lambda** = Mini-Funktion in einer Zeile (Prozentanzeige)
+- **partial** = vorprogrammierte Taste: gleicher Test, fest **α = 1 %** = Currying
+- **Generator / yield** = **Pez-Spender**: ein Ergebnis nach dem anderen, Fachbereich für Fachbereich
+- **try/except** = **Sicherheitsnetz**: «82,4» mit Komma → klare Fehlermeldung · andere Fehler sichtbar lassen
 - → «Damit übergebe ich an **Teoman**.»
 
 ## Teoman-Doganay Lam (Folien 6–10 · ca. 4.5 Min.)
