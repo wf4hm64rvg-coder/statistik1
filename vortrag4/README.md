@@ -7,6 +7,7 @@ Gruppe (laut Vortragsgruppen-Liste, Aufgabe 4, Woche 6): Leorat Krasniqi, Teoman
 | `Vortrag4_Berkeley_Analyse.ipynb` | Kommentierter Python-Code (Jupyter), ausgeführt mit allen Ausgaben |
 | `Vortrag4_Ausarbeitung.docx` / `.pdf` | Schriftliche Ausarbeitung (12 Seiten ohne Titelblatt und Quellen, verlangt: ≥ 3 × 2 = 6) |
 | `Vortrag4_Praesentation.pptx` | 16 Folien für 15 Minuten (3 × 5, inkl. 3 Kapiteltrenner) plus 4 Reservefolien für Rückfragen; editierbare Diagramme, Sprechernotizen in jeder Folie |
+| `Vortrag4_Code_erklaert.pdf` / `.md` | Der Python-Code Schritt für Schritt einfach erklärt |
 | `Vortrag4_Stichworte.pdf` / `.md` | Sprechtext als Stichworte zum direkten Ablesen |
 | `Vortrag4_Sprechtext.pdf` | Sprechtext als PDF zum Ausdrucken |
 | `Vortrag4_Sprechtext.md` | Ausformulierter Sprechtext Folie für Folie (auch in den Notizen der Präsentation) |
