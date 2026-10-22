@@ -25,7 +25,7 @@ Kurzfassung des Sprechtexts. Fett = Kernzahl oder Schlüsselwort.
 
 ### 4 · Funktionen: Grundlagen
 
-- Funktion = **Maschine**: Zutaten rein, Ergebnis raus · einmal bauen, oft benutzen
+- Funktion = **wiederverwendbarer Codeblock** · wie eine Maschine: Zutaten rein, Ergebnis raus
 - McKinney: **mehr als einmal gebraucht → Funktion**
 - `def` = Maschine bauen · `return` = Ergebnis raus · ohne return → **None**
 - Zutaten = **Argumente** · Positionsargument: muss · Keyword-Argument: hat **Voreinstellung**
@@ -36,9 +36,9 @@ Kurzfassung des Sprechtexts. Fett = Kernzahl oder Schlüsselwort.
 ### 5 · Funktionen als Objekte, Lambda, yield
 
 - **Funktionen sind Objekte** = **Fliessband**: Leerzeichen weg → % weg → Zahl · «82.4%» → **0.824**
-- **Lambda** = Mini-Funktion in einer Zeile (Prozentanzeige)
-- **partial** = vorprogrammierte Taste: gleicher Test, fest **α = 1 %** = Currying
-- **Generator / yield** = **Pez-Spender**: ein Ergebnis nach dem anderen, Fachbereich für Fachbereich
+- **Lambda** = anonyme Funktion in einer Zeile (Prozentanzeige)
+- **partial** legt ein Argument fest = **Currying** · `pruefe_streng`: gleicher Test, fest **α = 1 %**
+- **Generator / yield:** ein Ergebnis nach dem anderen, erst wenn gebraucht = **Lazy Evaluation**
 - **try/except** = **Sicherheitsnetz**: «82,4» mit Komma → klare Fehlermeldung · andere Fehler sichtbar lassen
 - → «Damit übergebe ich an **Teoman**.»
 
